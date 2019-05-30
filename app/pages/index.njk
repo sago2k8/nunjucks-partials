@@ -1,0 +1,7 @@
+<!-- index.nunjucks -->
+{% import "../templates/components/Title/macros.njk" as Title %}
+{% extends "layout.njk" %}
+
+{% block content %}
+  {{ Title.title('This is my title')}}
+{% endblock %}

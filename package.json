@@ -1,0 +1,25 @@
+{
+  "name": "partials-example",
+  "version": "0.1.0",
+  "description": "Nunjucks partials example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp default",
+    "watch": "gulp watch"
+  },
+  "keywords": [
+    "nunjacks",
+    "html",
+    "partials"
+  ],
+  "author": "santiago jimenez",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
