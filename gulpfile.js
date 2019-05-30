@@ -26,8 +26,8 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('app/pages/**/*.+(html|njk)', gulp.serial('nunjucks'));
-  gulp.watch('./app/**/*.scss', gulp.serial('sass'));
+  gulp.watch('app/pages/**/*.+(html|njk)', gulp.parallel('nunjucks'));
+  gulp.watch('./app/**/*.scss', gulp.parallel('sass'));
 });
 
 gulp.task('default', gulp.parallel('nunjucks', 'sass'));
